@@ -3,29 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973746BC295AEEF5004B333D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746BB295AEEF5004B333D /* RegisterViewController.swift */; };
+		973746BE295AEF0B004B333D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746BD295AEF0B004B333D /* LoginViewController.swift */; };
+		973746C0295AF18B004B333D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746BF295AF18B004B333D /* ChatViewController.swift */; };
+		973746C2295B2668004B333D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746C1295B2668004B333D /* Constants.swift */; };
+		973746C6295C9AEB004B333D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746C4295C9AEB004B333D /* MessageCell.swift */; };
+		973746C7295C9AEB004B333D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973746C5295C9AEB004B333D /* MessageCell.xib */; };
+		973746C9295D948A004B333D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 973746C8295D948A004B333D /* GoogleService-Info.plist */; };
+		973746CB295D98FD004B333D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973746CA295D98FD004B333D /* Message.swift */; };
 		9798B4532953387600914782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9798B4522953387600914782 /* AppDelegate.swift */; };
 		9798B4552953387600914782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9798B4542953387600914782 /* SceneDelegate.swift */; };
-		9798B4572953387600914782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9798B4562953387600914782 /* ViewController.swift */; };
+		9798B4572953387600914782 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9798B4562953387600914782 /* WelcomeController.swift */; };
 		9798B45A2953387600914782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9798B4582953387600914782 /* Main.storyboard */; };
 		9798B45D2953387600914782 /* ExpectoChatum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9798B45B2953387600914782 /* ExpectoChatum.xcdatamodeld */; };
 		9798B45F2953387700914782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9798B45E2953387700914782 /* Assets.xcassets */; };
 		9798B4622953387700914782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9798B4602953387700914782 /* LaunchScreen.storyboard */; };
+		97C3FE742966385E00806D12 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 97C3FE732966385E00806D12 /* IQKeyboardManagerSwift */; };
+		A3A93DA1713D1B2EAC93EBFA /* Pods_ExpectoChatum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32E920C4FAA8D2E55303B79 /* Pods_ExpectoChatum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		973746BB295AEEF5004B333D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		973746BD295AEF0B004B333D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		973746BF295AF18B004B333D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		973746C1295B2668004B333D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		973746C4295C9AEB004B333D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		973746C5295C9AEB004B333D /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		973746C8295D948A004B333D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		973746CA295D98FD004B333D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		9798B44F2953387600914782 /* ExpectoChatum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpectoChatum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9798B4522953387600914782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9798B4542953387600914782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9798B4562953387600914782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9798B4562953387600914782 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		9798B4592953387600914782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9798B45C2953387600914782 /* ExpectoChatum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpectoChatum.xcdatamodel; sourceTree = "<group>"; };
 		9798B45E2953387700914782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9798B4612953387700914782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9798B4632953387700914782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C3FE77296648E600806D12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1F00905FA03FA574CC510B0 /* Pods-ExpectoChatum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectoChatum.debug.xcconfig"; path = "Target Support Files/Pods-ExpectoChatum/Pods-ExpectoChatum.debug.xcconfig"; sourceTree = "<group>"; };
+		D18E463D283BF9BFB8EF1BE5 /* Pods-ExpectoChatum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectoChatum.release.xcconfig"; path = "Target Support Files/Pods-ExpectoChatum/Pods-ExpectoChatum.release.xcconfig"; sourceTree = "<group>"; };
+		F32E920C4FAA8D2E55303B79 /* Pods_ExpectoChatum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpectoChatum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A93DA1713D1B2EAC93EBFA /* Pods_ExpectoChatum.framework in Frameworks */,
+				97C3FE742966385E00806D12 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE1AA917974762BD545E4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32E920C4FAA8D2E55303B79 /* Pods_ExpectoChatum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		973746BA295AECA1004B333D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9798B4562953387600914782 /* WelcomeController.swift */,
+				973746BB295AEEF5004B333D /* RegisterViewController.swift */,
+				973746BD295AEF0B004B333D /* LoginViewController.swift */,
+				973746BF295AF18B004B333D /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		973746C3295C9A99004B333D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9798B4582953387600914782 /* Main.storyboard */,
+				973746C4295C9AEB004B333D /* MessageCell.swift */,
+				973746C5295C9AEB004B333D /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		973746CC295D9901004B333D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				973746CA295D98FD004B333D /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9798B4462953387600914782 = {
 			isa = PBXGroup;
 			children = (
+				97C3FE77296648E600806D12 /* README.md */,
 				9798B4512953387600914782 /* ExpectoChatum */,
 				9798B4502953387600914782 /* Products */,
+				B88C05EECC472174DA7DF631 /* Pods */,
+				1DE1AA917974762BD545E4E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +124,26 @@
 			children = (
 				9798B4522953387600914782 /* AppDelegate.swift */,
 				9798B4542953387600914782 /* SceneDelegate.swift */,
-				9798B4562953387600914782 /* ViewController.swift */,
-				9798B4582953387600914782 /* Main.storyboard */,
+				973746CC295D9901004B333D /* Models */,
+				973746C3295C9A99004B333D /* Views */,
+				973746BA295AECA1004B333D /* Controllers */,
 				9798B45E2953387700914782 /* Assets.xcassets */,
 				9798B4602953387700914782 /* LaunchScreen.storyboard */,
 				9798B4632953387700914782 /* Info.plist */,
+				973746C8295D948A004B333D /* GoogleService-Info.plist */,
 				9798B45B2953387600914782 /* ExpectoChatum.xcdatamodeld */,
+				973746C1295B2668004B333D /* Constants.swift */,
 			);
 			path = ExpectoChatum;
+			sourceTree = "<group>";
+		};
+		B88C05EECC472174DA7DF631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F00905FA03FA574CC510B0 /* Pods-ExpectoChatum.debug.xcconfig */,
+				D18E463D283BF9BFB8EF1BE5 /* Pods-ExpectoChatum.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +153,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9798B4662953387700914782 /* Build configuration list for PBXNativeTarget "ExpectoChatum" */;
 			buildPhases = (
+				4710EE7D1522930BE57DCB49 /* [CP] Check Pods Manifest.lock */,
 				9798B44B2953387600914782 /* Sources */,
 				9798B44C2953387600914782 /* Frameworks */,
 				9798B44D2953387600914782 /* Resources */,
+				344DB34C1D296206AA7C504A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ExpectoChatum;
+			packageProductDependencies = (
+				97C3FE732966385E00806D12 /* IQKeyboardManagerSwift */,
+			);
 			productName = ExpectoChatum;
 			productReference = 9798B44F2953387600914782 /* ExpectoChatum.app */;
 			productType = "com.apple.product-type.application";
@@ -106,7 +187,7 @@
 				};
 			};
 			buildConfigurationList = 9798B44A2953387600914782 /* Build configuration list for PBXProject "ExpectoChatum" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 9798B4462953387600914782;
+			packageReferences = (
+				97C3FE722966385E00806D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 9798B4502953387600914782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9798B4622953387700914782 /* LaunchScreen.storyboard in Resources */,
+				973746C7295C9AEB004B333D /* MessageCell.xib in Resources */,
+				973746C9295D948A004B333D /* GoogleService-Info.plist in Resources */,
 				9798B45F2953387700914782 /* Assets.xcassets in Resources */,
 				9798B45A2953387600914782 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +222,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		344DB34C1D296206AA7C504A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpectoChatum/Pods-ExpectoChatum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpectoChatum/Pods-ExpectoChatum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpectoChatum/Pods-ExpectoChatum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4710EE7D1522930BE57DCB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExpectoChatum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9798B44B2953387600914782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973746BE295AEF0B004B333D /* LoginViewController.swift in Sources */,
 				9798B45D2953387600914782 /* ExpectoChatum.xcdatamodeld in Sources */,
-				9798B4572953387600914782 /* ViewController.swift in Sources */,
+				973746BC295AEEF5004B333D /* RegisterViewController.swift in Sources */,
+				973746C0295AF18B004B333D /* ChatViewController.swift in Sources */,
+				9798B4572953387600914782 /* WelcomeController.swift in Sources */,
 				9798B4532953387600914782 /* AppDelegate.swift in Sources */,
 				9798B4552953387600914782 /* SceneDelegate.swift in Sources */,
+				973746CB295D98FD004B333D /* Message.swift in Sources */,
+				973746C2295B2668004B333D /* Constants.swift in Sources */,
+				973746C6295C9AEB004B333D /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +420,7 @@
 		};
 		9798B4672953387700914782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F00905FA03FA574CC510B0 /* Pods-ExpectoChatum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,8 +432,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +450,7 @@
 		};
 		9798B4682953387700914782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18E463D283BF9BFB8EF1BE5 /* Pods-ExpectoChatum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,8 +462,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97C3FE722966385E00806D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97C3FE732966385E00806D12 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97C3FE722966385E00806D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9798B45B2953387600914782 /* ExpectoChatum.xcdatamodeld */ = {

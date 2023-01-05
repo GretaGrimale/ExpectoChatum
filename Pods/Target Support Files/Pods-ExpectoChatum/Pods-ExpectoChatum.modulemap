@@ -1,0 +1,6 @@
+framework module Pods_ExpectoChatum {
+  umbrella header "Pods-ExpectoChatum-umbrella.h"
+
+  export *
+  module * { export * }
+}
